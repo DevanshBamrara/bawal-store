@@ -60,7 +60,7 @@ const Checkout = () => {
   };
 
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: 'calc(var(--nav-height) + 40px) 24px 80px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px' }}>
+    <div className="responsive-grid-2 responsive-padding" style={{ maxWidth: '1200px', margin: '0 auto', padding: 'calc(var(--nav-height) + 40px) 24px 80px' }}>
       
       {/* Left side: Checkout Form */}
       <div>

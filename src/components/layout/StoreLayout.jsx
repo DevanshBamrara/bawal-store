@@ -22,7 +22,7 @@ const StoreLayout = () => {
         color: '#fff',
         marginTop: 'auto'
       }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px' }}>
+        <div className="footer-grid">
           <div>
              <h2 className="logo-brand" style={{ color: 'var(--accent-neon)' }}>BAWAL<sup>TM</sup></h2>
              <p style={{ marginTop: '16px', color: '#888', maxWidth: '400px' }}>

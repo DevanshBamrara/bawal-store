@@ -11,7 +11,7 @@ const About = () => {
           FROM THE<br/>GULLY TO<br/>THE WORLD.
         </h1>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', marginTop: '80px' }}>
+        <div className="responsive-grid-2" style={{ marginTop: '80px' }}>
           
           {/* Mission Statement */}
           <div>
